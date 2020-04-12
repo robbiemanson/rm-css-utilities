@@ -10,7 +10,6 @@ This means properties are managed and versioned in a single place, and there's a
 ## Install
 
 * [Install using NPM](https://www.npmjs.com/package/rm-css-utilities)
-* [Install using Bower](http://bower.io/#install-packages)
 
 ## Overview
 
@@ -106,7 +105,7 @@ Utilities are written in lower case as they tend to serve as direct representati
 1. Make sure you're up to date with the master branch (`git checkout master; git fetch; git pull origin master`)
 2. Branch off master (`git checkout -b <your-branch-name>`)
 3. Make changes
-4. Increment the version numbers in [package.json](https://github.com/robbiemanson/rm-css-utilities/blob/master/package.json) and [bower.json](https://github.com/robbiemanson/rm-css-utilities/blob/master/bower.json). Generally: backwards-compatible fixes and smaller amendments to existing code are patches, new components and breaking changes count as minor releases, and full rewrites are major releases. See [semver.org](http://semver.org/) for detailed guidance.
+4. Increment the version number in [package.json](https://github.com/robbiemanson/rm-css-utilities/blob/master/package.json). Generally: backwards-compatible fixes and smaller amendments to existing code are patches, new components and breaking changes count as minor releases, and full rewrites are major releases. See [semver.org](http://semver.org/) for detailed guidance.
 5. Push up changes (`git push origin <your-branch-name>`) and write a [helpful pull request](https://github.com/blog/1943-how-to-write-the-perfect-pull-request) describing changes
 
 #### Review PR, merge to master, create new release
@@ -114,7 +113,7 @@ Utilities are written in lower case as they tend to serve as direct representati
 5. Make any required changes then merge branch into master: `git checkout master; git merge --no-ff <branch-name>`
 6. Push up the new version of master (`git push origin master`).
 7. [Create a new release](https://help.github.com/articles/creating-releases/) with a useful description. Original PR is probably a good starting point. **If making breaking changes, provide guidance in the release notes about what changes will have to be made in other projects**
-8. [Publish the npm package](https://docs.npmjs.com/getting-started/publishing-npm-packages) (`npm publish`) with a new version number. No need to manually update the Bower package, as Bower relies solely on git tags for package version information.
+8. [Publish the npm package](https://docs.npmjs.com/getting-started/publishing-npm-packages) (`npm publish`) with a new version number.
 
 ### How to…
 
