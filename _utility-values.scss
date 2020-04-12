@@ -40,28 +40,28 @@ $xx-large-breakpoint: 92rem;
    ========================================================================== */
 
 /* Primary palette */
-$color--fa-amber:  rgb(255, 157, 2);
-$color--fa-blue:   rgb(0,   122, 191);
-$color--fa-green:  rgb(124, 192, 74);
-$color--fa-purple: rgb(118, 54,  142);
-$color--fa-red:    rgb(253, 81,  39);
-$color--fa-yellow: rgb(255, 182, 8);
+$color--rm-amber:  rgb(255, 157, 2);
+$color--rm-blue:   rgb(0,   122, 191);
+$color--rm-green:  rgb(124, 192, 74);
+$color--rm-purple: rgb(118, 54,  142);
+$color--rm-red:    rgb(253, 81,  39);
+$color--rm-yellow: rgb(255, 182, 8);
 
 /* Dark and light variants */
-$color--fa-amber--dark:     adjust_hue(lighten($color--fa-amber, 0.5), 354);
-$color--fa-blue--dark:      adjust_hue(darken($color--fa-blue, 3.5), 2);
-$color--fa-blue--x-dark:    adjust_hue(darken($color--fa-blue, 8.5), 2);
-$color--fa-blue--xx-dark:   adjust_hue(darken($color--fa-blue, 15), 2);
-$color--fa-blue--x-light:   desaturate(lighten($color--fa-blue, 55), 50);
-$color--fa-blue--xx-light:  desaturate(lighten($color--fa-blue, 59), 50);
-$color--fa-green--dark:     adjust_hue(saturate(darken($color--fa-green, 7), 1), 0);
-$color--fa-green--text:     adjust_hue(saturate(darken($color--fa-green, 10), 0), 0);
-$color--fa-green--x-light:  desaturate(lighten($color--fa-green, 36), 10);
-$color--fa-purple--x-light: desaturate(lighten($color--fa-purple, 53), 20);
-$color--fa-red--dark:       desaturate(darken(adjust_hue($color--fa-red, 2), 10), 1);
-$color--fa-red--text:       adjust_hue(desaturate(darken($color--fa-red, 3), 0), 1);
-$color--fa-red--x-light:    desaturate(lighten($color--fa-red, 38), 2);
-$color--fa-yellow--x-light: lighten($color--fa-yellow, 39);
+$color--rm-amber--dark:     adjust_hue(lighten($color--rm-amber, 0.5), 354);
+$color--rm-blue--dark:      adjust_hue(darken($color--rm-blue, 3.5), 2);
+$color--rm-blue--x-dark:    adjust_hue(darken($color--rm-blue, 8.5), 2);
+$color--rm-blue--xx-dark:   adjust_hue(darken($color--rm-blue, 15), 2);
+$color--rm-blue--x-light:   desaturate(lighten($color--rm-blue, 55), 50);
+$color--rm-blue--xx-light:  desaturate(lighten($color--rm-blue, 59), 50);
+$color--rm-green--dark:     adjust_hue(saturate(darken($color--rm-green, 7), 1), 0);
+$color--rm-green--text:     adjust_hue(saturate(darken($color--rm-green, 10), 0), 0);
+$color--rm-green--x-light:  desaturate(lighten($color--rm-green, 36), 10);
+$color--rm-purple--x-light: desaturate(lighten($color--rm-purple, 53), 20);
+$color--rm-red--dark:       desaturate(darken(adjust_hue($color--rm-red, 2), 10), 1);
+$color--rm-red--text:       adjust_hue(desaturate(darken($color--rm-red, 3), 0), 1);
+$color--rm-red--x-light:    desaturate(lighten($color--rm-red, 38), 2);
+$color--rm-yellow--x-light: lighten($color--rm-yellow, 39);
 
 /* Grays */
 $color--gray-1:  #111;
