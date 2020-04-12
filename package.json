@@ -1,0 +1,15 @@
+{
+  "name": "rm-css-utilities",
+  "version": "1.0.0",
+  "description": "CSS utilities for using and managing my design properties consistently",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robbiemanson/rm-css-utilities.git"
+  },
+  "author": "Robbie Manson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robbiemanson/rm-css-utilities/issues"
+  },
+  "homepage": "https://github.com/robbiemanson/rm-css-utilities#readme"
+}

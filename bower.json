@@ -1,0 +1,28 @@
+{
+  "name": "rm-css-utilities",
+  "version": "1.0.0",
+  "homepage": "https://github.com/robbiemanson/rm-css-utilities",
+  "authors": [
+    "Robbie Manson <robbie@robbiemanson.com>"
+  ],
+  "description": "CSS utilities for using and managing my design properties consistently",
+  "main": "_utilities.scss",
+  "repository": {
+        "type": "git",
+        "url": "git://github.com/robbiemanson/rm-css-utilities"
+    },
+  "keywords": [
+    "rm-css-utilities",
+    "css-utilities",
+    "css",
+    "robbiemanson"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
